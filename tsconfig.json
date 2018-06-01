@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "rootDir": "./src/",
+    "target": "es6",
+    "typeRoots": [
+      "./node_modules/@types/",
+      "./build/**/"
+    ],
+    "rootDirs": [
+      "./src/",
+      "./build/"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ]
+}

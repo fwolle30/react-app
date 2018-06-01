@@ -1,0 +1,31 @@
+@keyframes rotation
+    0%
+      transform translate(-50%,-50%) rotate(0deg)
+
+    100%
+      transform translate(-50%,-50%) rotate(360deg)
+
+.banner
+  margin 0
+  padding 8px
+  background-color #424242
+  height 220px
+  position relative
+  text-align center
+  color #61dafb
+
+  &__logo
+    height 182px
+    width 182px
+    position absolute
+    top calc(50% + 20px)
+    left 50%
+    background url('./images/react-logo.svg') no-repeat center center
+    background-size 150%
+    animation-name rotation
+    animation-duration 4s
+    animation-iteration-count infinite
+    animation-timing-function linear
+
+  &__headline
+    margin 0
